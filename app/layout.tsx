@@ -1,10 +1,10 @@
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono } from 'next/font/google'
+import { Inter, JetBrains_Mono } from 'next/font/google'
 import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 
-const geist = Geist({ subsets: ["latin"], variable: '--font-sans' })
-const geistMono = Geist_Mono({ subsets: ["latin"], variable: '--font-mono' })
+const inter = Inter({ subsets: ["latin"], variable: '--font-sans' })
+const jetbrainsMono = JetBrains_Mono({ subsets: ["latin"], variable: '--font-mono' })
 
 export const metadata: Metadata = {
   title: 'AbdullahOS – Cyber Intelligence Interface',
@@ -40,7 +40,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth dark">
-      <body className={`${geist.variable} ${geistMono.variable} font-sans antialiased bg-[#050509] text-slate-100`}>
+      <body className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased bg-[#050509] text-slate-100`}>
         {children}
         <Analytics />
       </body>
