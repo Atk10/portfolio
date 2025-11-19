@@ -29,9 +29,12 @@ yarn-error.log*
 # Vercel
 .vercel
 
+# Lock files (keep only one)
+pnpm-lock.yaml
+yarn.lock
+
 # TypeScript
 *.tsbuildinfo
-next-env.d.ts
 
 # IDE
 .vscode/
