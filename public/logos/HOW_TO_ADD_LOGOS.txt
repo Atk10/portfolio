@@ -1,0 +1,26 @@
+HOW TO ADD LOGO IMAGES
+======================
+
+Save these 3 logo image files in this folder (public/logos/):
+
+1. qaterni-logo.png
+   - For: Desert Bloom project
+   - Description: Dark green logo with plant in pot and water droplet
+
+2. aqua-saving-logo.png  
+   - For: Aqua Saving project
+   - Description: Dark blue water droplet with "AQUA SAVING" text
+
+3. metalgurd-logo.png
+   - For: Metal Gurd project
+   - Description: Dark blue circle with pipeline icon, "MetalGurd" text
+
+INSTRUCTIONS:
+1. Right-click on each logo image you have
+2. Save them to: public/logos/ folder
+3. Use the exact filenames listed above
+4. Make sure they are PNG format
+5. Refresh your browser after saving
+
+The images will automatically appear on the project cards once saved!
+
